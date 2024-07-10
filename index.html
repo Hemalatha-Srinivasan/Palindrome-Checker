@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Eligibilty Checker</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Job Eligibility Checker</h2>
+        <div class="input">
+            <input type="radio" id="illiterate" name="input" value="Illiterate">
+            <label for="illiterate">Illiterate</label><br>
+
+            <input type="radio" id="hs" name="input" value="High School">
+            <label for="hs">High School</label><br>
+
+            <input type="radio" id="ug" name="input" value="UG">
+            <label for="ug">UG</label><br>
+
+            <input type="radio" id="pg" name="input" value="PG">
+            <label for="pg">PG</label><br>
+
+            <input type="radio" id="doc" name="input" value="Doctorate">
+            <label for="doc">Doctorate</label><br>
+            <br>
+            <div>
+            <button type="submit" onclick="check()" >Check</button>
+            </div>
+        </div>
+           <div id="result"></div>
+        </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
